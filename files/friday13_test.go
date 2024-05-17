@@ -1,4 +1,4 @@
-package hiker
+package friday13
 
 import (
     "testing"
