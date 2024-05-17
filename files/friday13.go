@@ -5,5 +5,5 @@ import (
 )
 
 func weekDay(year, month, day int) string {
-    return time.Time(year, time.Month(month), day, 0, 0, 0, 0).Weekday().String()
+    return time.Date(year, time.Month(month), day, 0, 0, 0, 0).Weekday().String()
 }
