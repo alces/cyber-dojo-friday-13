@@ -1,17 +1,1 @@
---- FAIL: TestWeekDay (0.00s)
-    friday13_test.go:9: 
-        	Error Trace:	friday13_test.go:9
-        	Error:      	Not equal: 
-        	            	expected: "Friday"
-        	            	actual  : ""
-        	            	
-        	            	Diff:
-        	            	--- Expected
-        	            	+++ Actual
-        	            	@@ -1 +1 @@
-        	            	-Friday
-        	            	+
-        	Test:       	TestWeekDay
-FAIL
-exit status 1
-FAIL	_/sandbox	0.008s
+FAIL	_/sandbox [build failed]

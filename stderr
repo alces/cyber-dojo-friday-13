@@ -1,0 +1,2 @@
+# _/sandbox [_/sandbox.test]
+./friday13.go:8:61: too many arguments in conversion to time.Time
