@@ -203,5 +203,21 @@
       47,
       662457
     ]
+  },
+  {
+    "duration": 4.10945,
+    "colour": "amber",
+    "predicted": "green",
+    "revert_if_wrong": "off",
+    "index": 13,
+    "time": [
+      2024,
+      5,
+      20,
+      7,
+      21,
+      6,
+      571723
+    ]
   }
 ]
