@@ -16,11 +16,11 @@ func TestCountsShouldHaveFridayKey(t *testing.T) {
 func TestSumOfCountsShouldBe12(t *testing.T) {
     sum := 0
     
-    for _, v := range count13s(2000, 2000) {
+    for _, v := range count13s(2000, 2009) {
         sum += v
     }
     
-    assert.Equal(t, 12, sum)
+    assert.Equal(t, 120, sum)
 }
         
 
