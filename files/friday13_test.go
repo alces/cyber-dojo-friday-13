@@ -9,7 +9,7 @@ import (
 
 func TestEverything(t *testing.T) {
     for k, v := range count13s(1900, 2000) {
-        fmt.Printf("%s:\t%d\n", k, v)
+        fmt.Printf("%s:\t\t%d\n", k, v)
     }
 }
 
