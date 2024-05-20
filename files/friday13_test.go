@@ -8,7 +8,7 @@ import (
 )
 
 func TestEverything(t *testing.T) {
-    for k, v := range count13s(1970, 1980) {
+    for k, v := range count13s(1800, 2000) {
         fmt.Printf("%10s: %d\n", k, v)
     }
 }
