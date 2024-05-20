@@ -1,0 +1,2 @@
+# _/sandbox [_/sandbox.test]
+./friday13.go:10:43: syntax error: unexpected newline, expecting { after for clause

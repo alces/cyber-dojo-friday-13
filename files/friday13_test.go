@@ -6,17 +6,17 @@ import (
 )
 
 func TestCountsShouldNotBeEmpty(t *testing.T) {
-    assert.NotEmpty(t, count13s(2000))
+    assert.NotEmpty(t, count13s(2000, 2000))
 }
 
 func TestCountsShouldHaveFridayKey(t *testing.T) {
-    assert.Contains(t, count13s(2000), "Friday")    
+    assert.Contains(t, count13s(2000, 2000), "Friday")    
 }
 
 func TestSumOfCountsShouldBe12(t *testing.T) {
     sum := 0
     
-    for _, v := range count13s(2000) {
+    for _, v := range count13s(2000, 2000) {
         sum += v
     }
     

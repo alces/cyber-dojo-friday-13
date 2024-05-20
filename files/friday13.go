@@ -4,11 +4,13 @@ import (
     "time"
 )
 
-func count13s(year int) map[string]int {
+func count13s(firstYear, lastYear int) map[string]int {
     result := make(map[string]int)
     
-    for m := 1; m < 13; m++ {
-        result[weekDay(year, m, 13)]++
+    for y := firstYear; y <= lastYear; y++
+        for m := 1; m < 13; m++ {
+            result[weekDay(year, m, 13)]++
+        }
     }
     
     return result
