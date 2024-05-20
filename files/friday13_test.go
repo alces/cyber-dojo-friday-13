@@ -1,9 +1,17 @@
 package friday13
 
 import (
+    "fmt"
     "testing"
+    
     "github.com/stretchr/testify/assert"
 )
+
+func TestEverything(t *testing.T) {
+    for k, v := range count13s(1900, 2000) {
+        fmt.Printf("%s: %d\n", k, v)
+    }
+}
 
 func TestCountsShouldNotBeEmpty(t *testing.T) {
     assert.NotEmpty(t, count13s(2000, 2000))
@@ -23,7 +31,6 @@ func TestSumOfCountsShouldBe12(t *testing.T) {
     assert.Equal(t, 120, sum)
 }
         
-
 func TestWeekDay(t *testing.T) {
     assert.Equal(t, "Friday", weekDay(2024, 5, 17))
 }
