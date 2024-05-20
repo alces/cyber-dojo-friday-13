@@ -1,8 +1,2 @@
---- FAIL: TestCountsShouldNotBeEmpty (0.00s)
-    friday13_test.go:9: 
-        	Error Trace:	friday13_test.go:9
-        	Error:      	Should NOT be empty, but was map[]
-        	Test:       	TestCountsShouldNotBeEmpty
-FAIL
-exit status 1
-FAIL	_/sandbox	0.003s
+PASS
+ok  	_/sandbox	0.002s
