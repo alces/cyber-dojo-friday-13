@@ -20,7 +20,7 @@ func TestSumOfCountsShouldBe12(t *testing.T) {
         sum += v
     }
     
-    assert.Equal(t, 12, s)
+    assert.Equal(t, 12, sum)
 }
         
 
