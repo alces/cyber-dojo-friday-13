@@ -9,7 +9,7 @@ func count13s(firstYear, lastYear int) map[string]int {
     
     for y := firstYear; y <= lastYear; y++ {
         for m := 1; m < 13; m++ {
-            result[weekDay(year, m, 13)]++
+            result[weekDay(y, m, 13)]++
         }
     }
     
