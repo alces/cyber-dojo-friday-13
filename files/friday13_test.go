@@ -13,6 +13,17 @@ func TestCountsShouldHaveFridayKey(t *testing.T) {
     assert.Contains(t, count13s(2000), "Friday")    
 }
 
+func TestSumOfCountsShouldBe12(t *testing.T) {
+    sum := 0
+    
+    for _, v := range count13s(2000) {
+        sum += v
+    }
+    
+    assert.Equal(t, 12, s)
+}
+        
+
 func TestWeekDay(t *testing.T) {
     assert.Equal(t, "Friday", weekDay(2024, 5, 17))
 }
